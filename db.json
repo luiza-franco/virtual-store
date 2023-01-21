@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Colar Curto de Prata Pingente Sol",
+      "description": "Dimensões: - Colar grumet: 40cm - Pingente: 1,2cm de diâmetro - Todos os acessórios são hipoalergênicos! Pingente produzido artesanalmente!",
+      "Value": 63.9
+    },
+    {
+      "id": 2,
+      "title": "Choker de Prata Toda de Bolinhas",
+      "description": "Dimensões: - 30cm + 10cm de extensão - 0,15cm de espessura - As bolinhas são passadas no fio de nylon",
+      "value": 159.9
+    },
+    {
+      "id": 3,
+      "title": "Anel de Prata com Pedra Verde Oval",
+      "description": "Dimensões: - Pedra: 0,5cm x 0,7cm",
+      "value": 49
+    },
+    {
+      "id": 4,
+      "title": "Brinco Ear Cuff de Prata com Bolinhas Peroladas",
+      "description": "Dimensões: - 2m de tamanho - Bolinhas: 0,5cm de diâmetro - Fecho de gancho sem tarraxa",
+      "value": 59.9
+    }
+  ]
+}

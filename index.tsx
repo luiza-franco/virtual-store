@@ -4,23 +4,22 @@ const app = express()
 
 app.listen('3000')
 
-
   app.get('/products', function (req, res) {
-    res.send('Listar os produtos');
+    res.send('listar os produtos');
   });
 
-  app.get('/product', function (req, res) {
-    res.send('Listar o produto');
+  app.get('/products/:id', function (req, res) {
+    res.send('listar um produto');
   });
    
   app.post('/product', function (req, res) {
-    res.send('Inserir o produto');
+    res.send('inserir o produto');
   });
    
   app.put('/product/:id', function (req, res) {
-    res.send(`Editar o produto ${req.params.id}`);
+    res.send(`editar o produto ${req.params.id}`);
   });
    
   app.delete('/product/:id', function (req, res) {
-    res.send(`Excluir o produto ${req.params.id}`);
+    res.send(`excluir o produto ${req.params.id}`);
   });
